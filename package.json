@@ -1,0 +1,33 @@
+{
+  "name": "melody-docs",
+  "version": "1.0.0",
+  "description": "The documentation for Melody Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Disbots-Studios-Inc/Melody-Docs.git"
+  },
+  "keywords": [
+    "Aktindo",
+    "Game-Glide",
+    "Melody",
+    "Discord"
+  ],
+  "author": "Disbots-Studios-Inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Disbots-Studios-Inc/Melody-Docs/issues"
+  },
+  "homepage": "https://github.com/Disbots-Studios-Inc/Melody-Docs#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vue-discord-message": "^5.0.2",
+    "vuepress-theme-yuu": "^3.0.1"
+  }
+}
