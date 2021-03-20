@@ -1,16 +1,21 @@
+const sidebar = require('./sidebar');
+
 module.exports = {
   title: "Melody Wiki",
   description: "The official wiki/docs for Melody Discord bot!",
-  theme: "yuu",
+  theme: "succinct",
   themeConfig: {
-    yuu: {
-      labels: {
-        darkTheme: "Enable dark theme", // Default is "Enable Dark Theme?"
-        ignoreThemes: "Ignore other themes", // Default is "Ignore Other Themes?"
-      },
-    },
-    logo: "../wiki/images/Melody-Logo+Transparent.png",
+    nav: [
+      { text: 'Github', link: 'https://github.com/DisBots-Studios-Inc/Melody-Docs' },
+      { text: 'Suppport server', link: 'https://discord.gg/Fjrvtq4mZc' },
+      { text: 'Javacord', link: 'https://javacord.org/' }
+    ],
+    sidebar,
+    logo: "/Melody-Logo_Transparent.png",
   },
+  globalUIComponents: [
+    'ThemeManager'
+  ],
   configureWebpack: {
     resolve: {
       alias: {

@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: /img/Melody-Banner+Red-Woodmark.png
+heroImage: /Melody_Banner.png
 tagline: The most advanced Discord music bot with features such as track control, queue and more!
 actionText: Learn more
 actionLink: /wiki/
 features:
-  - title: Simplicity First
+  - title: ⬜ Simplicity First
     details: Minimal setup is required to listen music in your server.
-  - title: Blazing speed
+  - title: 🚅 Blazing speed
     details: No stutters, ads in your music. You can listen to your music with no pauses ever!
-  - title: Made by the creators of DisBots Studios
+  - title: 👨‍💻 Made by the creators of DisBots Studios
     details: The creators/devs specialize in making Discord bots with a ton of experience.
 footer: Apache v2.0 Licensed | Copyright © 2021-present DisBots Studios Inc.
 ---
